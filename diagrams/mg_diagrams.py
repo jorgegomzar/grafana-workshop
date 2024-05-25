@@ -7,7 +7,7 @@ from diagrams.onprem.monitoring import Grafana, Prometheus
 
 with Diagram("Cloud monitoring", show=False):
     metrics = Prometheus("Prometheus")
-    metrics << Grafana("Grafana")
+    metrics << Grafana("Grafana") << metrics
 
     with Cluster("Compute cluster"):
         compute = [
