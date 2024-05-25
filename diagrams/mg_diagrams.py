@@ -5,9 +5,9 @@ from diagrams.gcp.compute import ComputeEngine
 from diagrams.onprem.monitoring import Grafana, Prometheus
 
 
-with Diagram("Web Service", show=False):
+with Diagram("Cloud monitoring", show=False):
     metrics = Prometheus("Prometheus")
-    metrics << Grafana("Graphana")
+    metrics << Grafana("Grafana")
 
     with Cluster("Compute cluster"):
         compute = [
