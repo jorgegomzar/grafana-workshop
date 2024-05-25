@@ -13,7 +13,7 @@ Currently contains the following stats (although it requires a bit of manual wor
     - metrics for 3 node exporters to demo resource monitoring using Prometheus
 - CSV information from INE
 
-For an extensive explanation for the manual configuration see [[GRAFANA_CONFIG.MD]]
+For an extensive explanation for the manual configuration see [GRAFANA_CONFIG.md](GRAFANA_CONFIG.md)
 
 ## Related documentation
 - [Grafana documentation](https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/)
